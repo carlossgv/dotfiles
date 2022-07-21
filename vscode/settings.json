@@ -972,8 +972,6 @@
     "*.ipynb": "jupyter-notebook"
   },
   "workbench.colorCustomizations": {
-    "editor.selectionBackground": "#135564",
-    "editor.selectionHighlightBackground": "#135564",
     "[Material Theme Darker High Contrast]": {
       "activityBarBadge.background": "#64FFDA",
       "activityBar.activeBorder": "#64FFDA",
@@ -1098,5 +1096,7 @@
   "editor.folding": false,
   "diffEditor.codeLens": true,
   "editor.linkedEditing": true,
-  "workbench.preferredDarkColorTheme": "Everforest Dark"
+  "workbench.preferredDarkColorTheme": "Everforest Dark",
+  "everforest.darkSelection": "red",
+  "editor.semanticTokenColorCustomizations": {}
 }
