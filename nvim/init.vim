@@ -11,7 +11,7 @@ if !exists('g:vscode')
 
 else
 
-	source $HOME/.config/nvim/vscode/settings.vim
+	source $HOME/dotfiles/nvim/vscode/settings.vim
 
 endif
 
