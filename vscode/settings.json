@@ -1,4 +1,5 @@
 {
+  "vscode-neovim.neovimExecutablePaths.linux": "/snap/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
@@ -1018,7 +1019,6 @@
     "yaml.schemas": {
       "file:///home/carlossgv/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
-
     "git.autofetch": true,
     "editor.rulers": [80, 120],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -1048,19 +1048,7 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
-  "python.formatting.provider": "black",
-  "[json]": {
-    "editor.quickSuggestions": {
-      "strings": true
-    },
-    "editor.suggest.insertMode": "replace"
-  },
+  "html.format.enable": false,
   "editor.inlineSuggest.enabled": true,
   "vim.neovimPath": "/usr/bin/nvim",
   "vim.enableNeovim": true,
@@ -1081,20 +1069,34 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.list.automaticKeyboardNavigation": false,
   "editor.minimap.enabled": false,
-  "vscode-neovim.mouseSelectionStartVisualMode": true,
-  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.vim",
-  "keyboard.dispatch": "keyCode",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "mypy.configFile": "./mypy.ini",
-  "mypy.targets": ["api/", "accounting/", "users/"],
-  "python.linting.mypyEnabled": true,
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "vscode-neovim.mouseSelectionStartVisualMode": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.linkedEditing": true,
-  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "jestrunner.jestCommand": "npm run test",
+  "git.ignoreRebaseWarning": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "jest.autoRun": {
+    "watch": false
+  },
+  "[jade]": {
+    "editor.defaultFormatter": "ducfilan.pug-formatter"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "FiraCode-Retina, MesloLGS NF",
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Fira Code Retina",
-  "zenMode.hideTabs": false,
-  "window.menuBarVisibility": "toggle"
+  "editor.folding": false,
+  "diffEditor.codeLens": true,
+  "editor.linkedEditing": true,
+  "workbench.preferredDarkColorTheme": "Everforest Dark"
 }

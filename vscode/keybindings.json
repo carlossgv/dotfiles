@@ -246,11 +246,11 @@
     "command": "-workbench.action.zoomIn"
   },
   {
-    "key": "ctrl+a ctrl+=",
+    "key": "ctrl+a ctrl+k",
     "command": "workbench.action.decreaseViewSize"
   },
   {
-    "key": "ctrl+a ctrl+-",
+    "key": "ctrl+a ctrl+j",
     "command": "workbench.action.increaseViewSize"
   },
   {
@@ -282,33 +282,5 @@
     "key": "f12",
     "command": "-editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-  },
-  {
-    "key": "ctrl+a ctrl+h",
-    "command": "workbench.action.terminal.resizePaneLeft",
-    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-  },
-  {
-    "key": "ctrl+shift+left",
-    "command": "-workbench.action.terminal.resizePaneLeft",
-    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-  },
-  {
-    "key": "ctrl+a ctrl+l",
-    "command": "workbench.action.terminal.resizePaneRight",
-    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-  },
-  {
-    "key": "ctrl+shift+right",
-    "command": "-workbench.action.terminal.resizePaneRight",
-    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-  },
-  {
-    "key": "ctrl+a ctrl+j",
-    "command": "workbench.action.terminal.resizePaneDown"
-  },
-  {
-    "key": "ctrl+a ctrl+k",
-    "command": "workbench.action.terminal.resizePaneUp"
   }
 ]
