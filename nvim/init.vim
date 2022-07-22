@@ -1,19 +1,19 @@
-if !exists('g:vscode')
-
-  set background=dark
-  set number
-
-  call plug#begin()
-	Plug 'nvim-lua/plenary.nvim'
-	Plug 'nvim-telescope/telescope.nvim'
-	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-  call plug#end()
-
-else
-
+if exists('g:vscode')
 	source $HOME/dotfiles/nvim/vscode/settings.vim
+else
+	
+	set tabstop=4 softtabstop=4
+	set shiftwidth=4
+	set number
+	set relativenumber
+	set smartindent
+	set nowrap
+	set noerrorbells
+	set scrolloff=8
+	set spell
+	set hidden
+	set ignorecase
+	set smartcase
 
 endif
-
-set clipboard=unnamed
 

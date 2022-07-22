@@ -1098,5 +1098,8 @@
   "editor.folding": false,
   "diffEditor.codeLens": true,
   "editor.linkedEditing": true,
-  "workbench.preferredDarkColorTheme": "Everforest Dark"
+  "workbench.preferredDarkColorTheme": "Everforest Dark",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLines": 8
 }
