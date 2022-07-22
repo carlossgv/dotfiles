@@ -1,5 +1,5 @@
 {
-  "vscode-neovim.neovimExecutablePaths.linux": "/snap/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
@@ -1018,13 +1018,18 @@
       "file:///home/carlossgv/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "git.autofetch": true,
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+      80,
+      120
+    ],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "html.format.contentUnformatted": "",
     "editor.autoIndent": "brackets",
     "python.defaultInterpreterPath": "/usr/bin/python3",
     "diffEditor.ignoreTrimWhitespace": false,
-    "cSpell.userWords": ["virtuals"],
+    "cSpell.userWords": [
+      "virtuals"
+    ],
     "notebook.cellToolbarLocation": {
       "default": "right",
       "jupyter-notebook": "left"
@@ -1127,5 +1132,8 @@
     "!Select sequence",
     "!Split",
     "!Split sequence"
-  ]
+  ],
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLines": 8
 }
