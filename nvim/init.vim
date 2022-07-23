@@ -16,6 +16,7 @@ else
 	set ignorecase
 	set smartcase
 	set signcolumn=yes
+	set timeoutlen=500
 
 	" PLUGINS
 	call plug#begin()
@@ -26,6 +27,8 @@ else
 		Plug 'nvim-lua/plenary.nvim'
 		Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 		Plug 'itchyny/lightline.vim'
+		Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+		Plug 'folke/which-key.nvim'
 
 	call plug#end()
 
@@ -58,9 +61,6 @@ else
 	nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 	nnoremap <leader>fb <cmd>Telescope buffers<cr>
 	nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-
-
-
 
 endif
 
