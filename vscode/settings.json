@@ -1095,6 +1095,7 @@
   "[jade]": {
     "editor.defaultFormatter": "ducfilan.pug-formatter"
   },
+  "keyboard.dispatch": "keyCode",
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "FiraCode-Retina, MesloLGS NF",
   "editor.fontLigatures": true,
