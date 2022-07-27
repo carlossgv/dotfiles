@@ -1,6 +1,6 @@
 {
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.lua",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
   "whichkey.bindings": [
@@ -1018,18 +1018,13 @@
       "file:///home/carlossgv/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "git.autofetch": true,
-    "editor.rulers": [
-      80,
-      120
-    ],
+    "editor.rulers": [80, 120],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "html.format.contentUnformatted": "",
     "editor.autoIndent": "brackets",
     "python.defaultInterpreterPath": "/usr/bin/python3",
     "diffEditor.ignoreTrimWhitespace": false,
-    "cSpell.userWords": [
-      "virtuals"
-    ],
+    "cSpell.userWords": ["virtuals"],
     "notebook.cellToolbarLocation": {
       "default": "right",
       "jupyter-notebook": "left"
@@ -1072,7 +1067,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.list.automaticKeyboardNavigation": false,
   "editor.minimap.enabled": false,
-  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.vim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.lua",
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.mouseSelectionStartVisualMode": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",

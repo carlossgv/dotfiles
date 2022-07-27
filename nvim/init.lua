@@ -30,7 +30,7 @@ else
 		Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 		Plug 'folke/which-key.nvim'
 
-	call plug#end()
+	" call plug#end()
 
 	" COLORSCHEME
 	
@@ -62,5 +62,5 @@ else
 	nnoremap <leader>fb <cmd>Telescope buffers<cr>
 	nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
-endif
+end
 

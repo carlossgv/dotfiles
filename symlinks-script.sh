@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ln -sf ~/dotfiles/lvim/config.lua ~/.config/lvim/config.lua
-ln -sf ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
+ln -sf ~/dotfiles/nvim/init.lua ~/.config/nvim/init.lua
 ln -sf ~/dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
