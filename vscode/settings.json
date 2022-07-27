@@ -1018,18 +1018,13 @@
       "file:///home/carlossgv/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "git.autofetch": true,
-    "editor.rulers": [
-      80,
-      120
-    ],
+    "editor.rulers": [80, 120],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "html.format.contentUnformatted": "",
     "editor.autoIndent": "brackets",
     "python.defaultInterpreterPath": "/usr/bin/python3",
     "diffEditor.ignoreTrimWhitespace": false,
-    "cSpell.userWords": [
-      "virtuals"
-    ],
+    "cSpell.userWords": ["virtuals"],
     "notebook.cellToolbarLocation": {
       "default": "right",
       "jupyter-notebook": "left"
@@ -1166,5 +1161,9 @@
     "!Select sequence",
     "!Split",
     "!Split sequence"
-  ]
+  ],
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.mac": "/Users/lacarlos.gonzalez/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vscode-kubernetes.helm-path.mac": "/Users/lacarlos.gonzalez/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+  }
 }
