@@ -1,6 +1,6 @@
 {
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.lua",
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
   "whichkey.bindings": [
@@ -1067,7 +1067,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.list.automaticKeyboardNavigation": false,
   "editor.minimap.enabled": false,
-  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.lua",
+  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.vim",
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.mouseSelectionStartVisualMode": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",
