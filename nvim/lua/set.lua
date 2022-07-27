@@ -11,5 +11,5 @@ vim.o.spell = true
 vim.o.hidden = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
-vim.o.signcolumn = true
+-- vim.o.signcolumn = true
 vim.o.timeoutlen = 500
