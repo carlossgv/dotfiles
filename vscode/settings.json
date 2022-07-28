@@ -1018,13 +1018,18 @@
       "file:///home/carlossgv/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "git.autofetch": true,
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+      80,
+      120
+    ],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "html.format.contentUnformatted": "",
     "editor.autoIndent": "brackets",
     "python.defaultInterpreterPath": "/usr/bin/python3",
     "diffEditor.ignoreTrimWhitespace": false,
-    "cSpell.userWords": ["virtuals"],
+    "cSpell.userWords": [
+      "virtuals"
+    ],
     "notebook.cellToolbarLocation": {
       "default": "right",
       "jupyter-notebook": "left"
@@ -1133,35 +1138,7 @@
   "editor.lineNumbers": "relative",
   "editor.cursorSurroundingLines": 8,
   "aws.telemetry": false,
-  "yaml.customTags": [
-    "!And",
-    "!And sequence",
-    "!If",
-    "!If sequence",
-    "!Not",
-    "!Not sequence",
-    "!Equals",
-    "!Equals sequence",
-    "!Or",
-    "!Or sequence",
-    "!FindInMap",
-    "!FindInMap sequence",
-    "!Base64",
-    "!Join",
-    "!Join sequence",
-    "!Cidr",
-    "!Ref",
-    "!Sub",
-    "!Sub sequence",
-    "!GetAtt",
-    "!GetAZs",
-    "!ImportValue",
-    "!ImportValue sequence",
-    "!Select",
-    "!Select sequence",
-    "!Split",
-    "!Split sequence"
-  ],
+  "window.menuBarVisibility": "toggle",
   "vs-kubernetes": {
     "vscode-kubernetes.minikube-path.mac": "/Users/lacarlos.gonzalez/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
     "vscode-kubernetes.helm-path.mac": "/Users/lacarlos.gonzalez/.vs-kubernetes/tools/helm/darwin-amd64/helm"
