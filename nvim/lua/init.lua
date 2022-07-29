@@ -19,16 +19,32 @@ vim.o.smartcase = true
 vim.o.timeoutlen = 500
 
 -- 	" PLUGINS
--- 	call plug#begin()
+local install_path = vim.fn.stdpath "data" .. "/site/pack/packer/start/packer.nvim"
 
--- 		Plug 'Townk/vim-autoclose'
--- 		Plug 'sainnhe/everforest'
--- 		Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
--- 		Plug 'nvim-lua/plenary.nvim'
--- 		Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
--- 		Plug 'itchyny/lightline.vim'
--- 		Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
--- 		Plug 'folke/which-key.nvim'
+if vim.fn.empty(vim.fn.glob(install_path)) > 0 then
+  vim.fn.execute("!git clone https://github.com/wbthomason/packer.nvim " .. install_path)
+end
+
+local packer_group = vim.api.nvim_create_augroup("Packer", { clear = true })
+vim.api.nvim_create_autocmd(
+  "BufWritePost",
+  { command = "source <afile> | PackerCompile", group = packer_group, pattern = "init.lua" }
+)
+
+
+
+require('packer').startup(function(use)
+
+  use 'Townk/vim-autoclose'
+  use 'sainnhe/everforest'
+  use 'nvim-telescope/telescope-fzf-native.nvim'
+  use 'nvim-lua/plenary.nvim'
+  use 'nvim-telescope/telescope.nvim'
+  use 'itchyny/lightline.vim'
+  use 'nvim-treesitter/nvim-treesitter'
+  use 'folke/which-key.nvim'
+
+end)
 
 -- 	" call plug#end()
 
