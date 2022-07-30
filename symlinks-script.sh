@@ -3,6 +3,7 @@
 ln -sf ~/dotfiles/lvim/config.lua ~/.config/lvim/config.lua
 ln -sf ~/dotfiles/nvim/init.lua ~/.config/nvim/init.lua
 ln -sf ~/dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
+ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   ln -s ~/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
