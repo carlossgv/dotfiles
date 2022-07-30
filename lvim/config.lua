@@ -12,6 +12,8 @@ an executable
 lvim.log.level = "warn"
 lvim.format_on_save = true
 lvim.colorscheme = "everforest"
+vim.opt.clipboard="unnamedplus"
+vim.opt.relativenumber = true
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"

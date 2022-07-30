@@ -1,4 +1,4 @@
--- require("lua.set")
+require("user.set")
 print("Loading init.lua");
 
 -- SETTERS
