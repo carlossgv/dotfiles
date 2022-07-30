@@ -120,3 +120,6 @@ TERM=xterm
 PATH=~/.local/bin:$PATH
 alias v=lvim
 alias zshrc='lvim ~/.zshrc'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="#FFFFFF"
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080,bold,underline"
