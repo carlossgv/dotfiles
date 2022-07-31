@@ -6,11 +6,11 @@ ln -sf ~/dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
 ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-  ln -s ~/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
-  ln -s ~/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
+  ln -sf ~/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
+  ln -sf ~/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
-  # Mac OSX
-  ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-  ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+        # Mac OSX
+  ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+  ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 fi
