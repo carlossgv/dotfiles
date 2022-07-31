@@ -9,7 +9,12 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/lacarlos.gonzalez/.oh-my-zsh"
+#  Check if OS is macos
+if [[ $(uname) == "Darwin" ]]; then
+  export ZSH="/Users/lacarlos.gonzalez/.oh-my-zsh"
+else
+  export ZSH="$HOME/.oh-my-zsh"
+fi
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -114,11 +119,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/Personal/powerlevel10k/powerlevel10k.zsh-theme
+#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#source ~/Personal/powerlevel10k/powerlevel10k.zsh-theme
 TERM=xterm
 PATH=~/.local/bin:$PATH
 alias v=lvim
 alias zshrc='lvim ~/.zshrc'
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080,bold,underline"
+ZSH_THEME="powerlevel10k/powerlevel10k"

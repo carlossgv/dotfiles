@@ -1,6 +1,6 @@
 {
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.lua",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
   "whichkey.bindings": [
@@ -1142,5 +1142,8 @@
   "vs-kubernetes": {
     "vscode-kubernetes.minikube-path.mac": "/Users/lacarlos.gonzalez/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
     "vscode-kubernetes.helm-path.mac": "/Users/lacarlos.gonzalez/.vs-kubernetes/tools/helm/darwin-amd64/helm"
-  }
+  },
+  "settingsSync.ignoredExtensions": [
+  
+  ]
 }
