@@ -120,11 +120,10 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-#source ~/Personal/powerlevel10k/powerlevel10k.zsh-theme
-TERM=xterm
 PATH=~/.local/bin:$PATH
 alias v=lvim
 alias zshrc='lvim ~/.zshrc'
+export TERM="xterm-256color"
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080,bold,underline"
 # ZSH_THEME="powerlevel10k/powerlevel10k"
